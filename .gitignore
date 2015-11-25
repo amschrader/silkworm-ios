@@ -1,0 +1,6 @@
+# Project
+*.xcworkspace
+
+# Pods
+Pods
+Podfile.local
