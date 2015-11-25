@@ -10,11 +10,9 @@ import UIKit
 
 class RootViewController: UIViewController {
 
-    override func viewWillAppear(animated: Bool) {
-        title = "Silkworm"
-        view.backgroundColor = UIColor.whiteColor()
-    }
-
+  override func viewWillAppear(animated: Bool) {
+    title = "Silkworm"
+    view.backgroundColor = UIColor.whiteColor()
+  }
 
 }
-
