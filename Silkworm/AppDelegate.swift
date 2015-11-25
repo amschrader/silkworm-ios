@@ -11,11 +11,17 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
+    var window: UIWindow? = UIWindow(frame: UIScreen.mainScreen().bounds)
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        UINavigationBar.appearance().backgroundColor = UIColor.greenColor()
+        
+        let navigationController = UINavigationController()
+        navigationController.pushViewController(RootViewController(), animated: true)
+        
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
         return true
     }
 

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A48297F81C053A67002E5D00 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48297F71C053A67002E5D00 /* RootNavigationController.swift */; };
 		A4F6461C1C011F160069A25E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6461B1C011F160069A25E /* AppDelegate.swift */; };
-		A4F6461E1C011F160069A25E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6461D1C011F160069A25E /* ViewController.swift */; };
-		A4F646211C011F160069A25E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F6461F1C011F160069A25E /* Main.storyboard */; };
+		A4F6461E1C011F160069A25E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6461D1C011F160069A25E /* RootViewController.swift */; };
 		A4F646231C011F160069A25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F646221C011F160069A25E /* Assets.xcassets */; };
 		A4F646261C011F160069A25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F646241C011F160069A25E /* LaunchScreen.storyboard */; };
 		A4F646311C011F170069A25E /* SilkwormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F646301C011F170069A25E /* SilkwormTests.swift */; };
@@ -34,10 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A48297F71C053A67002E5D00 /* RootNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
 		A4F646181C011F160069A25E /* Silkworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Silkworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F6461B1C011F160069A25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4F6461D1C011F160069A25E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4F646201C011F160069A25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4F6461D1C011F160069A25E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		A4F646221C011F160069A25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4F646251C011F160069A25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4F646271C011F160069A25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				A4F6461B1C011F160069A25E /* AppDelegate.swift */,
-				A4F6461D1C011F160069A25E /* ViewController.swift */,
-				A4F6461F1C011F160069A25E /* Main.storyboard */,
+				A4F6461D1C011F160069A25E /* RootViewController.swift */,
 				A4F646221C011F160069A25E /* Assets.xcassets */,
 				A4F646241C011F160069A25E /* LaunchScreen.storyboard */,
 				A4F646271C011F160069A25E /* Info.plist */,
+				A48297F71C053A67002E5D00 /* RootNavigationController.swift */,
 			);
 			path = Silkworm;
 			sourceTree = "<group>";
@@ -231,7 +231,6 @@
 			files = (
 				A4F646261C011F160069A25E /* LaunchScreen.storyboard in Resources */,
 				A4F646231C011F160069A25E /* Assets.xcassets in Resources */,
-				A4F646211C011F160069A25E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4F6461E1C011F160069A25E /* ViewController.swift in Sources */,
+				A4F6461E1C011F160069A25E /* RootViewController.swift in Sources */,
 				A4F6461C1C011F160069A25E /* AppDelegate.swift in Sources */,
+				A48297F81C053A67002E5D00 /* RootNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A4F6461F1C011F160069A25E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4F646201C011F160069A25E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A4F646241C011F160069A25E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -484,6 +476,7 @@
 				A4F646421C011F170069A25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F646431C011F170069A25E /* Build configuration list for PBXNativeTarget "SilkwormTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +485,7 @@
 				A4F646451C011F170069A25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4F646461C011F170069A25E /* Build configuration list for PBXNativeTarget "SilkwormUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +494,7 @@
 				A4F646481C011F170069A25E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
