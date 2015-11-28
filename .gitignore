@@ -4,3 +4,6 @@
 # Pods
 Pods
 Podfile.local
+
+# Config files for oauth
+Silkworm/Secrets.plist

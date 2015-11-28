@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		570E93816C87C0E4904B9FF0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF46BAAB92024AC289BD0FB /* libPods.a */; };
 		A48297F81C053A67002E5D00 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48297F71C053A67002E5D00 /* RootNavigationController.swift */; };
+		A4CB773A1C09276800DD7853 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4CB77391C09276800DD7853 /* Secrets.plist */; };
 		A4F6461C1C011F160069A25E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6461B1C011F160069A25E /* AppDelegate.swift */; };
 		A4F6461E1C011F160069A25E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6461D1C011F160069A25E /* RootViewController.swift */; };
 		A4F646231C011F160069A25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F646221C011F160069A25E /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		7C3859047EF80101C350C404 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A48297F71C053A67002E5D00 /* RootNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
 		A4CB77381C06979700DD7853 /* Silkworm-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Silkworm-Bridging-Header.h"; sourceTree = "<group>"; };
+		A4CB77391C09276800DD7853 /* Secrets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		A4F646181C011F160069A25E /* Silkworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Silkworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F6461B1C011F160069A25E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4F6461D1C011F160069A25E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				A4F646271C011F160069A25E /* Info.plist */,
 				A48297F71C053A67002E5D00 /* RootNavigationController.swift */,
 				A4CB77381C06979700DD7853 /* Silkworm-Bridging-Header.h */,
+				A4CB77391C09276800DD7853 /* Secrets.plist */,
 			);
 			path = Silkworm;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				A4F646261C011F160069A25E /* LaunchScreen.storyboard in Resources */,
 				A4F646231C011F160069A25E /* Assets.xcassets in Resources */,
+				A4CB773A1C09276800DD7853 /* Secrets.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

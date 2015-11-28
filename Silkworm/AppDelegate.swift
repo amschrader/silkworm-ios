@@ -11,6 +11,7 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+  var ravelryClient: AFOAuth1Client?
   var window: UIWindow? = UIWindow(frame: UIScreen.mainScreen().bounds)
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -21,6 +22,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     window?.rootViewController = navigationController
     window?.makeKeyAndVisible()
+
+
+    if let path = NSBundle.mainBundle().pathForResource("Secrets", ofType: "plist"),
+      dict = NSDictionary(contentsOfFile: path) as? [String: AnyObject],
+      key = dict["ravelry_key"] as? String,
+      secret = dict["ravelry_secret"] as? String {
+      ravelryClient = AFOAuth1Client(baseURL: NSURL(string: "https://www.ravelry.com/"), key: key, secret: secret)
+    }
+
     return true
   }
 
